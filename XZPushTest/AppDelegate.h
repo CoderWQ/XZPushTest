@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#define DDLOG(...) printf("%s\n",[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
