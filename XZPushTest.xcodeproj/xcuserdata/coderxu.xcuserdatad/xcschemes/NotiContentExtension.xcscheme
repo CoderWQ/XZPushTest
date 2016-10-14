@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F761723F1D9A6D0B009F89E2"
-               BuildableName = "aaaa.appex"
-               BlueprintName = "aaaa"
+               BlueprintIdentifier = "F73D3FF01DAF614C00FA9237"
+               BuildableName = "NotiContentExtension.appex"
+               BlueprintName = "NotiContentExtension"
                ReferencedContainer = "container:XZPushTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F761723F1D9A6D0B009F89E2"
-            BuildableName = "aaaa.appex"
-            BlueprintName = "aaaa"
+            BlueprintIdentifier = "F73D3FF01DAF614C00FA9237"
+            BuildableName = "NotiContentExtension.appex"
+            BlueprintName = "NotiContentExtension"
             ReferencedContainer = "container:XZPushTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

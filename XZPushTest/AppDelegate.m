@@ -106,6 +106,41 @@ fetchCompletionHandler:
     UNNotificationSound *sound = content.sound;  // 推送消息的声音
     NSString *subtitle = content.subtitle;  // 推送消息的副标题
     NSString *title = content.title;  // 推送消息的标题
+      
+    
+
+//    UNNotificationAction *action1 = [UNNotificationAction actionWithIdentifier:@"action1" title:@"策略1行为1" options:UNNotificationActionOptionForeground];
+//    
+//    UNTextInputNotificationAction *action2 = [UNTextInputNotificationAction actionWithIdentifier:@"action2" title:@"策略1行为2" options:UNNotificationActionOptionDestructive textInputButtonTitle:@"comment" textInputPlaceholder:@"reply"];
+
+    //UNNotificationCategoryOptionNone
+    //UNNotificationCategoryOptionCustomDismissAction  清除通知被触发会走通知的代理方法
+    //UNNotificationCategoryOptionAllowInCarPlay       适用于行车模式
+    
+    
+//    UNNotificationCategory *catary1 = [UNNotificationCategory categoryWithIdentifier:@"category1" actions:@[action1,action2] intentIdentifiers:@[] options:UNNotificationCategoryOptionCustomDismissAction];
+//    
+//    
+//    UNNotificationAction *action3 = [UNNotificationAction actionWithIdentifier:@"action3" title:@"策略2行为1" options:UNNotificationActionOptionForeground];
+//    
+//    UNNotificationAction *action4 = [UNNotificationAction actionWithIdentifier:@"action4" title:@"策略2行为2" options:UNNotificationActionOptionForeground];
+//    
+//    UNNotificationCategory *category2 = [UNNotificationCategory categoryWithIdentifier:@"category2" actions:@[action3,action4]  intentIdentifiers:@[] options:UNNotificationCategoryOptionCustomDismissAction];
+//    
+//    [[UNUserNotificationCenter currentNotificationCenter] setNotificationCategories:[NSSet setWithObjects:catary1,category2, nil]];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     if([notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
         NSLog(@"iOS10 前台收到远程通知:%@", [self logDic:userInfo]);

@@ -4,20 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TestContent.xcscheme</key>
+		<key>NotiContentExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>XZPushTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
-		</dict>
-		<key>aaaa.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>mytest.xcscheme</key>
 		<dict>
@@ -38,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>F72E8A931D8E8A6500B99CC7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F73D3FF01DAF614C00FA9237</key>
 		<dict>
 			<key>primary</key>
 			<true/>

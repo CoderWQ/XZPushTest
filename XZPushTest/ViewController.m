@@ -22,7 +22,7 @@
 
    
     // 1.本地通知
-//    [self requestLocationNotification];
+    [self requestLocationNotification];
     
 }
 
@@ -40,10 +40,10 @@
     
     NSError *error = nil;
   
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"icon_certification_status1@2x" ofType:@"png"];/****** *******
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"test1" ofType:@"gif"];
-     *******/
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"flv视频测试用例1" ofType:@"mp4"];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"icon_certification_status1@2x" ofType:@"png"];/****** *******
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"test1" ofType:@"gif"];
+//     *******/
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"flv视频测试用例1" ofType:@"mp4"];
     
     
 //    NSMutableDictionary *dict = [NSMutableDictionary dictionary];

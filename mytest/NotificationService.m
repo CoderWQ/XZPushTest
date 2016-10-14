@@ -8,6 +8,7 @@
 #define DDLOG(...) printf("%s\n",[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
 
 #import "NotificationService.h"
+#import <UserNotifications/UserNotifications.h>
 
 @interface NotificationService ()
 
@@ -37,6 +38,12 @@
     NSDictionary *notiDict = dict[@"aps"];
     NSString *imgUrl = [NSString stringWithFormat:@"%@",notiDict[@"imageAbsoluteString"]];
    
+    // 这里添加一些点击事件，可以在收到通知的时候，添加，也可以在拦截通知的这个扩展中添加
+    
+     self.bestAttemptContent.categoryIdentifier = @"category1";
+    
+    
+    
     
     if (!imgUrl.length) {
 
@@ -54,6 +61,8 @@
         self.contentHandler(self.bestAttemptContent);
 
     }];
+    
+    
     
     
     

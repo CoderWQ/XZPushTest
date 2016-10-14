@@ -16,6 +16,11 @@
 		F72E8A8E1D8E8A6500B99CC7 /* XZPushTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E8A8D1D8E8A6500B99CC7 /* XZPushTestTests.m */; };
 		F72E8A991D8E8A6500B99CC7 /* XZPushTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E8A981D8E8A6500B99CC7 /* XZPushTestUITests.m */; };
 		F72E8AA81D8EABAB00B99CC7 /* icon_certification_status1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F72E8AA71D8EABAB00B99CC7 /* icon_certification_status1@2x.png */; };
+		F73D3FF21DAF614C00FA9237 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F761674C1D94D57500936B14 /* UserNotifications.framework */; };
+		F73D3FF31DAF614C00FA9237 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F761674E1D94D57500936B14 /* UserNotificationsUI.framework */; };
+		F73D3FF71DAF614C00FA9237 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D3FF61DAF614C00FA9237 /* NotificationViewController.m */; };
+		F73D3FFA1DAF614C00FA9237 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D3FF81DAF614C00FA9237 /* MainInterface.storyboard */; };
+		F73D3FFE1DAF614C00FA9237 /* NotiContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F73D3FF11DAF614C00FA9237 /* NotiContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F78AC8841D9012E500E7AA87 /* flv视频测试用例1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F78AC8831D9012E500E7AA87 /* flv视频测试用例1.mp4 */; };
 		F79D576F1D938A37003732D5 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = F79D576E1D938A37003732D5 /* NotificationService.m */; };
 		F79D57731D938A37003732D5 /* mytest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F79D576B1D938A37003732D5 /* mytest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -38,6 +43,13 @@
 			remoteGlobalIDString = F72E8A6F1D8E8A6500B99CC7;
 			remoteInfo = XZPushTest;
 		};
+		F73D3FFC1DAF614C00FA9237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E8A681D8E8A6500B99CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73D3FF01DAF614C00FA9237;
+			remoteInfo = NotiContentExtension;
+		};
 		F79D57711D938A37003732D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F72E8A681D8E8A6500B99CC7 /* Project object */;
@@ -54,6 +66,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				F73D3FFE1DAF614C00FA9237 /* NotiContentExtension.appex in Embed App Extensions */,
 				F79D57731D938A37003732D5 /* mytest.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -80,6 +93,11 @@
 		F72E8A9A1D8E8A6500B99CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F72E8AA61D8E8CA300B99CC7 /* XZPushTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XZPushTest.entitlements; sourceTree = "<group>"; };
 		F72E8AA71D8EABAB00B99CC7 /* icon_certification_status1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_certification_status1@2x.png"; sourceTree = "<group>"; };
+		F73D3FF11DAF614C00FA9237 /* NotiContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotiContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D3FF51DAF614C00FA9237 /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		F73D3FF61DAF614C00FA9237 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		F73D3FF91DAF614C00FA9237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F73D3FFB1DAF614C00FA9237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F761674C1D94D57500936B14 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		F761674E1D94D57500936B14 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		F78AC8831D9012E500E7AA87 /* flv视频测试用例1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "flv视频测试用例1.mp4"; sourceTree = "<group>"; };
@@ -113,6 +131,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F73D3FEE1DAF614C00FA9237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D3FF31DAF614C00FA9237 /* UserNotificationsUI.framework in Frameworks */,
+				F73D3FF21DAF614C00FA9237 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F79D57681D938A37003732D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +155,7 @@
 			children = (
 				F72E8A721D8E8A6500B99CC7 /* XZPushTest */,
 				F79D576C1D938A37003732D5 /* mytest */,
+				F73D3FF41DAF614C00FA9237 /* NotiContentExtension */,
 				F72E8A8C1D8E8A6500B99CC7 /* XZPushTestTests */,
 				F72E8A971D8E8A6500B99CC7 /* XZPushTestUITests */,
 				F761674B1D94D57500936B14 /* Frameworks */,
@@ -142,6 +170,7 @@
 				F72E8A891D8E8A6500B99CC7 /* XZPushTestTests.xctest */,
 				F72E8A941D8E8A6500B99CC7 /* XZPushTestUITests.xctest */,
 				F79D576B1D938A37003732D5 /* mytest.appex */,
+				F73D3FF11DAF614C00FA9237 /* NotiContentExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +222,17 @@
 			path = XZPushTestUITests;
 			sourceTree = "<group>";
 		};
+		F73D3FF41DAF614C00FA9237 /* NotiContentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F73D3FF51DAF614C00FA9237 /* NotificationViewController.h */,
+				F73D3FF61DAF614C00FA9237 /* NotificationViewController.m */,
+				F73D3FF81DAF614C00FA9237 /* MainInterface.storyboard */,
+				F73D3FFB1DAF614C00FA9237 /* Info.plist */,
+			);
+			path = NotiContentExtension;
+			sourceTree = "<group>";
+		};
 		F761674B1D94D57500936B14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +268,7 @@
 			);
 			dependencies = (
 				F79D57721D938A37003732D5 /* PBXTargetDependency */,
+				F73D3FFD1DAF614C00FA9237 /* PBXTargetDependency */,
 			);
 			name = XZPushTest;
 			productName = XZPushTest;
@@ -269,6 +310,23 @@
 			productName = XZPushTestUITests;
 			productReference = F72E8A941D8E8A6500B99CC7 /* XZPushTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F73D3FF01DAF614C00FA9237 /* NotiContentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73D40011DAF614C00FA9237 /* Build configuration list for PBXNativeTarget "NotiContentExtension" */;
+			buildPhases = (
+				F73D3FED1DAF614C00FA9237 /* Sources */,
+				F73D3FEE1DAF614C00FA9237 /* Frameworks */,
+				F73D3FEF1DAF614C00FA9237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotiContentExtension;
+			productName = NotiContentExtension;
+			productReference = F73D3FF11DAF614C00FA9237 /* NotiContentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		F79D576A1D938A37003732D5 /* mytest */ = {
 			isa = PBXNativeTarget;
@@ -321,6 +379,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = F72E8A6F1D8E8A6500B99CC7;
 					};
+					F73D3FF01DAF614C00FA9237 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2S9EXUX8CH;
+						ProvisioningStyle = Automatic;
+					};
 					F79D576A1D938A37003732D5 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2S9EXUX8CH;
@@ -345,6 +408,7 @@
 				F72E8A881D8E8A6500B99CC7 /* XZPushTestTests */,
 				F72E8A931D8E8A6500B99CC7 /* XZPushTestUITests */,
 				F79D576A1D938A37003732D5 /* mytest */,
+				F73D3FF01DAF614C00FA9237 /* NotiContentExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -375,6 +439,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D3FEF1DAF614C00FA9237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D3FFA1DAF614C00FA9237 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +486,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F73D3FED1DAF614C00FA9237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D3FF71DAF614C00FA9237 /* NotificationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F79D57671D938A37003732D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,6 +514,11 @@
 			isa = PBXTargetDependency;
 			target = F72E8A6F1D8E8A6500B99CC7 /* XZPushTest */;
 			targetProxy = F72E8A951D8E8A6500B99CC7 /* PBXContainerItemProxy */;
+		};
+		F73D3FFD1DAF614C00FA9237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73D3FF01DAF614C00FA9237 /* NotiContentExtension */;
+			targetProxy = F73D3FFC1DAF614C00FA9237 /* PBXContainerItemProxy */;
 		};
 		F79D57721D938A37003732D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -457,6 +542,14 @@
 				F72E8A821D8E8A6500B99CC7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F73D3FF81DAF614C00FA9237 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73D3FF91DAF614C00FA9237 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -626,6 +719,30 @@
 			};
 			name = Release;
 		};
+		F73D3FFF1DAF614C00FA9237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2S9EXUX8CH;
+				INFOPLIST_FILE = NotiContentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coderxu.com.NotiContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F73D40001DAF614C00FA9237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2S9EXUX8CH;
+				INFOPLIST_FILE = NotiContentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coderxu.com.NotiContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		F79D57751D938A37003732D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -688,6 +805,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F73D40011DAF614C00FA9237 /* Build configuration list for PBXNativeTarget "NotiContentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73D3FFF1DAF614C00FA9237 /* Debug */,
+				F73D40001DAF614C00FA9237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		F79D57741D938A37003732D5 /* Build configuration list for PBXNativeTarget "mytest" */ = {
 			isa = XCConfigurationList;
