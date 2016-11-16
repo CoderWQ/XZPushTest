@@ -40,34 +40,38 @@
     
     NSError *error = nil;
   
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"icon_certification_status1@2x" ofType:@"png"];/****** *******
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"test1" ofType:@"gif"];
-//     *******/
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"icon_certification_status1@2x" ofType:@"png"];
+/*
+      // 1.gif图的路径
+     NSString *path = [[NSBundle mainBundle] pathForResource:@"test1" ofType:@"gif"];
+     //  2.mp4的路径
 //    NSString *path = [[NSBundle mainBundle] pathForResource:@"flv视频测试用例1" ofType:@"mp4"];
     
     
-//    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    /* 附件通知键值使用说明*/
-    // 1.UNNotificationAttachmentOptionsTypeHintKey
-    //    dict[UNNotificationAttachmentOptionsTypeHintKey] = (__bridge id _Nullable)(kUTTypeImage);
-    
-    // 2.UNNotificationAttachmentOptionsThumbnailHiddenKey
-    //    dict[UNNotificationAttachmentOptionsThumbnailHiddenKey] =  @YES;
-    
-    // 3.UNNotificationAttachmentOptionsThumbnailClippingRectKey
-    //    dict[UNNotificationAttachmentOptionsThumbnailClippingRectKey] = (__bridge id _Nullable)((CGRectCreateDictionaryRepresentation(CGRectMake(0, 0, 1 ,1))));
-    //    Rect对应的意思
-    //    thumbnailClippingRect =     {
-    //        Height = "0.1";
-    //        Width = "0.1";
-    //        X = 0;
-    //        Y = 0;
-    //    };
-    //   4. UNNotificationAttachmentOptionsThumbnailTimeKey-选取影片的某一秒做推送显示的缩略图
-//    dict[UNNotificationAttachmentOptionsThumbnailTimeKey] =@10;
-    
-    
-    
+     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+      
+ 
+    附件通知键值使用说明
+     1.UNNotificationAttachmentOptionsTypeHintKey
+     dict[UNNotificationAttachmentOptionsTypeHintKey] = (__bridge id _Nullable)(kUTTypeImage);
+     
+     2.UNNotificationAttachmentOptionsThumbnailHiddenKey
+     dict[UNNotificationAttachmentOptionsThumbnailHiddenKey] =  @YES;
+     
+     3.UNNotificationAttachmentOptionsThumbnailClippingRectKey
+     dict[UNNotificationAttachmentOptionsThumbnailClippingRectKey] = (__bridge id _Nullable)((CGRectCreateDictionaryRepresentation(CGRectMake(0, 0, 1 ,1))));
+     Rect对应的意思
+     thumbnailClippingRect =     {
+         Height = "0.1";
+         Width = "0.1";
+         X = 0;
+         Y = 0;
+     };
+     4. UNNotificationAttachmentOptionsThumbnailTimeKey-选取影片的某一秒做推送显示的缩略图
+     dict[UNNotificationAttachmentOptionsThumbnailTimeKey] =@10;
+     
+     
+ 
     UNNotificationAttachment *att = [UNNotificationAttachment attachmentWithIdentifier:@"att1" URL:[NSURL fileURLWithPath:path] options:nil error:&error];
     if (error) {
         NSLog(@"attachment error %@", error);
